@@ -1,0 +1,9 @@
+{
+	"scope": "source.php - variable.other.php",
+
+	"completions":
+	[
+		{ "trigger": "server-request-uri", "contents": "\\$_SERVER[\"REQUEST_URI\"]" },
+		{ "trigger": "server-http-user-agent", "contents": "\\$_SERVER[\"HTTP_USER_AGENT\"]" }
+	]
+}
