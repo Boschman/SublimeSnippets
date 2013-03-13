@@ -3,7 +3,21 @@
 
 	"completions":
 	[
+		{ "trigger": "vars-path", "contents": "\\$vars[\"path\"]" },
+		{ "trigger": "vars-lokale-testserver", "contents": "\\$vars[\"lokale_testserver\"]" },
 		{ "trigger": "server-request-uri", "contents": "\\$_SERVER[\"REQUEST_URI\"]" },
-		{ "trigger": "server-http-user-agent", "contents": "\\$_SERVER[\"HTTP_USER_AGENT\"]" }
+		{ "trigger": "server-http-user-agent", "contents": "\\$_SERVER[\"HTTP_USER_AGENT\"]" },
+		{ "trigger": "server-remote-addr", "contents": "\\$_SERVER[\"REMOTE_ADDR\"]" },
+		{ "trigger": "db-query", "contents": "\\$db->query(\"${1:query};\");" },
+		{ "trigger": "db-num-rows", "contents": "\\$db->num_rows()" },
+		{ "trigger": "login-logged_in", "contents": "\\$login->logged_in" },
+		{ "trigger": "login-user_id", "contents": "\\$login->user_id" },
+		{ "trigger": "login-vars", "contents": "\\$login->vars[\"${1:key}\"]" },
+		{ "trigger": "trigger-error", "contents": "trigger_error(\"${1:foutmelding}\",E_USER_NOTICE);" },
+		{ "trigger": "\\$voorkant_cms", "contents": "\\$voorkant_cms" },
+		{ "trigger": "_get", "contents": "\\$_GET[\"${1:key}\"]" },
+		{ "trigger": "_post", "contents": "\\$_POST[\"${1:key}\"]" },
+		"adddatetime",
+		"editdatetime"
 	]
 }
