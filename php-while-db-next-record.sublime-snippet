@@ -5,7 +5,7 @@ while(\$db->next_record()) {
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>wnr</tabTrigger>
+	<tabTrigger>while-db-next-record</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
 </snippet>
