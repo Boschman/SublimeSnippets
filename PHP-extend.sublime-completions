@@ -5,6 +5,7 @@
 	[
 		{ "trigger": "vars-path", "contents": "\\$vars[\"path\"]" },
 		{ "trigger": "vars-lokale-testserver", "contents": "\\$vars[\"lokale_testserver\"]" },
+		{ "trigger": "vars-acceptatie-testserver", "contents": "\\$vars[\"acceptatie_testserver\"]" },
 		{ "trigger": "server-request-uri", "contents": "\\$_SERVER[\"REQUEST_URI\"]" },
 		{ "trigger": "server-http-user-agent", "contents": "\\$_SERVER[\"HTTP_USER_AGENT\"]" },
 		{ "trigger": "server-remote-addr", "contents": "\\$_SERVER[\"REMOTE_ADDR\"]" },

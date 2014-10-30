@@ -1,11 +1,9 @@
 <snippet>
 	<content><![CDATA[
-while(\$db->next_record()) {
-	$0
-}
+html("${1:fieldname}", "${2:page}")
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>wdb</tabTrigger>
+	<tabTrigger>wthtml</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
 </snippet>
