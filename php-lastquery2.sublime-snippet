@@ -1,11 +1,7 @@
 <snippet>
-	<content><![CDATA[
-while( \$db->next_record() ) {
-	$0
-}
-]]></content>
+	<content><![CDATA[echo \$db2->lq."<br />";]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>wdb</tabTrigger>
+	<tabTrigger>lq2</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
 </snippet>
